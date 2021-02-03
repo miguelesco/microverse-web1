@@ -1,4 +1,4 @@
-#video {
+.video-container {
     margin: 0 auto;
     width: 50vw;
 }
@@ -10,13 +10,13 @@
     width: 100%;
 }
 
-.video-frame {
+#video {
     width: 50vw;
-    height: 800px;
+    height: 400px;
 }
 
 @media (max-width: 768px) {
-    .video-frame {
+    #video {
         width: 100vw;
         height: 250px;
     }
