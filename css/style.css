@@ -1,9 +1,9 @@
-.video-container {
+#video-container {
     margin: 0 auto;
     width: 50vw;
 }
 
-#header {
+#nav-bar {
     display: flex;
     position: fixed; /* Set the navbar to fixed position */
     top: 0;
@@ -12,7 +12,7 @@
 
 #video {
     width: 50vw;
-    height: 400px;
+    height: 500px;
 }
 
 @media (max-width: 768px) {

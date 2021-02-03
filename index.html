@@ -14,34 +14,40 @@
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#" >
-        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190506164011/logo3.png" id="header-img" alt="" width="30" height="24"
-          class="d-inline-block align-top">
-        Microverse
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar"
-        aria-controls="nav-bar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="nav-bar">
-        <ul>
-          <li>
-            <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#video">Video</a>
-          </li>
-          <li>
-            <a href="#form">Form</a>
-          </li>
-        </ul>
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" >
+          <img src="https://media.geeksforgeeks.org/wp-content/uploads/20190506164011/logo3.png" id="header-img" alt="" width="30" height="24"
+            class="d-inline-block align-top">
+          Microverse
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar-items"
+          aria-controls="nav-bar-items" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-bar-items">
+          <ul>
+            <li>
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#video" class="nav-link">Video</a>
+            </li>
+            <li>
+              <a href="#form" class="nav-link">Form</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
-  <div class="embed-responsive embed-responsive-16by9" class="video-container" >
+  <section id="home">
+
+  </section>
+
+  <div class="embed-responsive embed-responsive-16by9" id="video-container">
     <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/GdOEQv-zQVw" allowfullscreen></iframe>
   </div>
 
