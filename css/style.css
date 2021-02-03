@@ -2,3 +2,21 @@
     margin: 0 auto;
     width: 50vw;
 }
+
+#header {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    width: 100%;
+}
+
+.video-frame {
+    width: 50vw;
+    height: 800px;
+}
+
+@media (max-width: 768px) {
+    .video-frame {
+        width: 100vw;
+        height: 250px;
+    }
+}
