@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
 </head>
 
 <body>
@@ -14,25 +16,25 @@
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#" id="header-img">
-        <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"
+      <a class="navbar-brand" href="#" >
+        <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" id="header-img" alt="" width="30" height="24"
           class="d-inline-block align-top">
         Microverse
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-bar"
+        aria-controls="nav-bar" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="nav-bar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+        <ul>
+          <li>
+            <a href="#home">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#video">Video</a>
+          <li>
+            <a href="#video">Video</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#product">Product</a>
+          <li>
+            <a href="#form">Form</a>
           </li>
         </ul>
       </div>
@@ -40,7 +42,7 @@
   </nav>
 
   <div class="embed-responsive embed-responsive-16by9"  id="video">
-    <iframe class="video-frame embed-responsive-item" src="https://www.youtube.com/embed/GdOEQv-zQVw" allowfullscreen></iframe>
+    <iframe style="width: 50vw; height: 400px;" class="embed-responsive-item" src="https://www.youtube.com/embed/GdOEQv-zQVw" allowfullscreen></iframe>
   </div>
 
   <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">

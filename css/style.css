@@ -4,6 +4,7 @@
 }
 
 #header {
+    display: flex;
     position: fixed; /* Set the navbar to fixed position */
     top: 0;
     width: 100%;
@@ -20,3 +21,26 @@
         height: 250px;
     }
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+  }
+  nav li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  nav li a:hover {
+    background: none;
+    color: #333;
+  }
+
+  @media screen and (min-width: 990px) {
+    nav ul {
+      display: flex;
+    }
+  }
